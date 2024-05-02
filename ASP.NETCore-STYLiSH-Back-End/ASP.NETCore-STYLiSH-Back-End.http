@@ -1,0 +1,19 @@
+@ASP.NETCore_STYLiSH_Back_End_HostAddress = http://localhost:5130
+
+GET {{ASP.NETCore_STYLiSH_Back_End_HostAddress}}/api/1.0/marketing/campaigns
+Accept: application/json
+
+###
+
+GET {{ASP.NETCore_STYLiSH_Back_End_HostAddress}}/api/1.0/products/all?paging=1
+Accept: application/json
+
+###
+
+GET {{ASP.NETCore_STYLiSH_Back_End_HostAddress}}/api/1.0/products/men?paging=0
+Accept: application/json
+
+###
+
+GET {{ASP.NETCore_STYLiSH_Back_End_HostAddress}}/api/1.0/products/details?id=201807201824
+Accept: application/json
