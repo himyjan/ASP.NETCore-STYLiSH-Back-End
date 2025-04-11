@@ -1,3 +1,4 @@
+using ASP.NETCore_STYLiSH_Back_End.Data;
 using ASP.NETCore_STYLiSH_Back_End.Models;
 using Microsoft.EntityFrameworkCore;
 using STYLiSH.Types;
@@ -8,7 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<StylishContext>();
+builder.Services.AddDbContext<StylishContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("StylishContext")));
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
