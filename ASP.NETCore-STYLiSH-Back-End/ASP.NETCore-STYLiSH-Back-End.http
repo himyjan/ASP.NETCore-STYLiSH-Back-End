@@ -1,5 +1,15 @@
 @ASP.NETCore_STYLiSH_Back_End_HostAddress = http://localhost:5130
 
+GET {{ASP.NETCore_STYLiSH_Back_End_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{ASP.NETCore_STYLiSH_Back_End_HostAddress}}/scalar/v1 
+Accept: application/json
+
+###
+
 GET {{ASP.NETCore_STYLiSH_Back_End_HostAddress}}/api/1.0/marketing/campaigns
 Accept: application/json
 
