@@ -49,14 +49,20 @@ namespace ASP.NETCore_STYLiSH_Back_End.Migrations
                     b.HasData(
                         new
                         {
+                            ProductId = 201807242228L,
+                            Picture = "http://localhost:5130/images/201807242228.jpg",
+                            Story = "於是\n我也想要給你\n一個那麼美好的自己。\n不朽《與自己和好如初》"
+                        },
+                        new
+                        {
                             ProductId = 201807202140L,
-                            Picture = "/img/campain_201807202140.jpg",
+                            Picture = "http://localhost:5130/images/201807202140.jpg",
                             Story = "瞬間\n在城市的角落\n找到失落多時的記憶。\n印象《都會故事集》"
                         },
                         new
                         {
                             ProductId = 201807242222L,
-                            Picture = "/img/campain_201807242222.jpg",
+                            Picture = "http://localhost:5130/images/201807242222.jpg",
                             Story = "永遠\n展現自信與專業\n無法抵擋的男人魅力。\n復古《再一次經典》"
                         });
                 });
@@ -285,7 +291,7 @@ namespace ASP.NETCore_STYLiSH_Back_End.Migrations
                             Id = 201807201824L,
                             Category = "women",
                             Description = "厚薄：薄\r\n彈性：無",
-                            MainImage = "https://d38p3ocem7m9yt.cloudfront.net/products/201807201824/main_image.jpg",
+                            MainImage = "http://localhost:5130/images/products/201807201824.jpg",
                             Note = "實品顏色依單品照為主",
                             Place = "中國",
                             Price = 799,
@@ -299,7 +305,7 @@ namespace ASP.NETCore_STYLiSH_Back_End.Migrations
                             Id = 201807202140L,
                             Category = "women",
                             Description = "厚薄：薄\r\n彈性：無",
-                            MainImage = "https://d38p3ocem7m9yt.cloudfront.net/products/201807202140/main_image.jpg",
+                            MainImage = "http://localhost:5130/images/products/201807202140.jpg",
                             Note = "實品顏色依單品照為主",
                             Place = "中國",
                             Price = 599,
@@ -310,16 +316,184 @@ namespace ASP.NETCore_STYLiSH_Back_End.Migrations
                         },
                         new
                         {
+                            Id = 201807202150L,
+                            Category = "women",
+                            Description = "厚薄：薄\r\n彈性：無",
+                            MainImage = "http://localhost:5130/images/products/201807202150.jpg",
+                            Note = "實品顏色依單品照為主",
+                            Place = "中國",
+                            Price = 599,
+                            Story = "O.N.S is all about options, which is why we took our staple polo shirt and upgraded it with slubby linen jersey, making it even lighter for those who prefer their summer style extra-breezy.",
+                            Texture = "棉 100%",
+                            Title = "小扇紋細織上衣",
+                            Wash = "手洗，溫水"
+                        },
+                        new
+                        {
+                            Id = 201807202157L,
+                            Category = "women",
+                            Description = "厚薄：薄\r\n彈性：無",
+                            MainImage = "http://localhost:5130/images/products/201807202157.jpg",
+                            Note = "實品顏色依單品照為主",
+                            Place = "中國",
+                            Price = 1299,
+                            Story = "O.N.S is all about options, which is why we took our staple polo shirt and upgraded it with slubby linen jersey, making it even lighter for those who prefer their summer style extra-breezy.",
+                            Texture = "棉 100%",
+                            Title = "活力花紋長筒牛仔褲",
+                            Wash = "手洗，溫水"
+                        },
+                        new
+                        {
+                            Id = 201807242211L,
+                            Category = "men",
+                            Description = "厚薄：薄\r\n彈性：無",
+                            MainImage = "http://localhost:5130/images/products/201807242211.jpg",
+                            Note = "實品顏色依單品照為主",
+                            Place = "中國",
+                            Price = 799,
+                            Story = "O.N.S is all about options, which is why we took our staple polo shirt and upgraded it with slubby linen jersey, making it even lighter for those who prefer their summer style extra-breezy.",
+                            Texture = "棉 100%",
+                            Title = "純色輕薄百搭襯衫",
+                            Wash = "手洗，溫水"
+                        },
+                        new
+                        {
+                            Id = 201807242216L,
+                            Category = "men",
+                            Description = "厚薄：薄\r\n彈性：無",
+                            MainImage = "http://localhost:5130/images/products/201807242216.jpg",
+                            Note = "實品顏色依單品照為主",
+                            Place = "中國",
+                            Price = 2399,
+                            Story = "O.N.S is all about options, which is why we took our staple polo shirt and upgraded it with slubby linen jersey, making it even lighter for those who prefer their summer style extra-breezy.",
+                            Texture = "棉 100%",
+                            Title = "時尚輕鬆休閒西裝",
+                            Wash = "手洗，溫水"
+                        },
+                        new
+                        {
                             Id = 201807242222L,
                             Category = "men",
                             Description = "厚薄：薄\r\n彈性：無",
-                            MainImage = "https://d38p3ocem7m9yt.cloudfront.net/products/201807242222/main_image.jpg",
+                            MainImage = "http://localhost:5130/images/products/201807242222.jpg",
                             Note = "實品顏色依單品照為主",
                             Place = "中國",
                             Price = 3999,
                             Story = "O.N.S is all about options, which is why we took our staple polo shirt and upgraded it with slubby linen jersey, making it even lighter for those who prefer their summer style extra-breezy.",
                             Texture = "棉 100%",
                             Title = "經典商務西裝",
+                            Wash = "手洗，溫水"
+                        },
+                        new
+                        {
+                            Id = 201807242228L,
+                            Category = "accessories",
+                            Description = "厚薄：薄\r\n彈性：無",
+                            MainImage = "http://localhost:5130/images/products/201807242228.jpg",
+                            Note = "實品顏色依單品照為主",
+                            Place = "中國",
+                            Price = 1499,
+                            Story = "O.N.S is all about options, which is why we took our staple polo shirt and upgraded it with slubby linen jersey, making it even lighter for those who prefer their summer style extra-breezy.",
+                            Texture = "棉 100%",
+                            Title = "夏日海灘戶外遮陽帽",
+                            Wash = "手洗，溫水"
+                        },
+                        new
+                        {
+                            Id = 201807242230L,
+                            Category = "accessories",
+                            Description = "厚薄：薄\r\n彈性：無",
+                            MainImage = "http://localhost:5130/images/products/201807242230.jpg",
+                            Note = "實品顏色依單品照為主",
+                            Place = "中國",
+                            Price = 799,
+                            Story = "O.N.S is all about options, which is why we took our staple polo shirt and upgraded it with slubby linen jersey, making it even lighter for those who prefer their summer style extra-breezy.",
+                            Texture = "棉 100%",
+                            Title = "經典牛仔帽",
+                            Wash = "手洗，溫水"
+                        },
+                        new
+                        {
+                            Id = 201807242232L,
+                            Category = "accessories",
+                            Description = "厚薄：薄\r\n彈性：無",
+                            MainImage = "http://localhost:5130/images/products/201807242232.jpg",
+                            Note = "實品顏色依單品照為主",
+                            Place = "中國",
+                            Price = 1299,
+                            Story = "O.N.S is all about options, which is why we took our staple polo shirt and upgraded it with slubby linen jersey, making it even lighter for those who prefer their summer style extra-breezy.",
+                            Texture = "棉 100%",
+                            Title = "卡哇伊多功能隨身包",
+                            Wash = "手洗，溫水"
+                        },
+                        new
+                        {
+                            Id = 201807242234L,
+                            Category = "accessories",
+                            Description = "厚薄：薄\r\n彈性：無",
+                            MainImage = "http://localhost:5130/images/products/201807242234.jpg",
+                            Note = "實品顏色依單品照為主",
+                            Place = "中國",
+                            Price = 1799,
+                            Story = "O.N.S is all about options, which is why we took our staple polo shirt and upgraded it with slubby linen jersey, making it even lighter for those who prefer their summer style extra-breezy.",
+                            Texture = "棉 100%",
+                            Title = "柔軟氣質羊毛圍巾",
+                            Wash = "手洗，溫水"
+                        },
+                        new
+                        {
+                            Id = 201902191210L,
+                            Category = "women",
+                            Description = "厚薄：薄\r\n彈性：無",
+                            MainImage = "http://localhost:5130/images/products/201902191210.jpg",
+                            Note = "實品顏色依單品照為主",
+                            Place = "中國",
+                            Price = 999,
+                            Story = "O.N.S is all about options, which is why we took our staple polo shirt and upgraded it with slubby linen jersey, making it even lighter for those who prefer their summer style extra-breezy.",
+                            Texture = "棉 100%",
+                            Title = "精緻扭結洋裝",
+                            Wash = "手洗，溫水"
+                        },
+                        new
+                        {
+                            Id = 201902191242L,
+                            Category = "women",
+                            Description = "厚薄：薄\r\n彈性：無",
+                            MainImage = "http://localhost:5130/images/products/201902191242.jpg",
+                            Note = "實品顏色依單品照為主",
+                            Place = "中國",
+                            Price = 999,
+                            Story = "O.N.S is all about options, which is why we took our staple polo shirt and upgraded it with slubby linen jersey, making it even lighter for those who prefer their summer style extra-breezy.",
+                            Texture = "棉 100%",
+                            Title = "透肌澎澎薄紗襯衫",
+                            Wash = "手洗，溫水"
+                        },
+                        new
+                        {
+                            Id = 201902191245L,
+                            Category = "women",
+                            Description = "厚薄：薄\r\n彈性：無",
+                            MainImage = "http://localhost:5130/images/products/201902191245.jpg",
+                            Note = "實品顏色依單品照為主",
+                            Place = "中國",
+                            Price = 999,
+                            Story = "O.N.S is all about options, which is why we took our staple polo shirt and upgraded it with slubby linen jersey, making it even lighter for those who prefer their summer style extra-breezy.",
+                            Texture = "棉 100%",
+                            Title = "小扇紋質感上衣",
+                            Wash = "手洗，溫水"
+                        },
+                        new
+                        {
+                            Id = 201902191247L,
+                            Category = "women",
+                            Description = "厚薄：薄\r\n彈性：無",
+                            MainImage = "http://localhost:5130/images/products/201902191247.jpg",
+                            Note = "實品顏色依單品照為主",
+                            Place = "中國",
+                            Price = 1999,
+                            Story = "O.N.S is all about options, which is why we took our staple polo shirt and upgraded it with slubby linen jersey, making it even lighter for those who prefer their summer style extra-breezy.",
+                            Texture = "棉 100%",
+                            Title = "經典修身長筒牛仔褲",
                             Wash = "手洗，溫水"
                         });
                 });
